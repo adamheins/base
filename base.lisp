@@ -1,4 +1,3 @@
-#!/usr/local/bin/clisp
 
 (defun base-convert (from to num)
   (write-to-string
