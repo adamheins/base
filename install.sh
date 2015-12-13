@@ -10,4 +10,5 @@ fi
 
 echo "#!$clisp_location" > $base_location &&
 cat base.lisp >> $base_location &&
-echo "base installed to $base_location"
+echo "base installed to $base_location" &&
+echo "this repo can now be deleted"
