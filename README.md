@@ -1,15 +1,14 @@
 # base
-base is simple command line utility to converting numbers between different
-bases. It is written in Common Lisp (clisp).
+base is a simple command line utility for converting numbers between bases. It
+is written in Common Lisp.
 
 ## Usage
 Usage of base is simple. The general format is:
 ```
-base <from-base>:<to-base> <num>
+base <from>:<to> <num>
 ```
-`from-base`: The base to convert from. This is the base that `num` is in
-currently.  
-`to-base`: The base to convert `num` to.  
+`from`: The base to convert from. This is the base that `num` is in currently.  
+`to`: The base to convert `num` to.  
 `num`: The number being converted.  
 
 ## Examples

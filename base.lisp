@@ -19,4 +19,4 @@
         (first bases)
         (second bases)
         (second *args*))))
-  (format t "usage: base <from-base>:<to-base> <num>"))
+  (format t "usage: base <from>:<to> <num>"))
